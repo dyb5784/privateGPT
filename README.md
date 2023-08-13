@@ -11,6 +11,13 @@ In order to set your environment up to run the code here, first install all requ
 ```shell
 pip3 install -r requirements.txt
 ```
+If you get error "Detecting C compiler ABI info - failed"
+first run
+```
+call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" amd64
+```
+the pip3 install -r requirements.txt
+
 
 *Alternative requirements installation with poetry*
 1. Install [poetry](https://python-poetry.org/docs/#installation)
