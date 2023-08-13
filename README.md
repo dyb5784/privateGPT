@@ -25,6 +25,10 @@ If you get a validation error for the model and path and checksum is correct, do
 pip3 install --upgrade gpt4all==0.2.3 
 https://github.com/imartinez/privateGPT/issues/691
 
+if you get "warning: Unable to connect optimized C data functions [No module named '_testbuffer'], falling back to pure Python #723"
+downgrade to pip install --upgrade clickhouse-connect==0.5.22
+https://github.com/imartinez/privateGPT/issues/723#issuecomment-1597372760
+
 *Alternative requirements installation with poetry*
 1. Install [poetry](https://python-poetry.org/docs/#installation)
 
