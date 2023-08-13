@@ -18,6 +18,9 @@ call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build
 ```
 the pip3 install -r requirements.txt
 
+if you get "This error might have occurred since this system does not have Windows Long Path support enabled."
+open PS as admin and enable long path 'New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force'
+
 
 *Alternative requirements installation with poetry*
 1. Install [poetry](https://python-poetry.org/docs/#installation)
