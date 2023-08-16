@@ -36,6 +36,7 @@ downgrade clickhouse-connect to v 0.5.22
 pip install --upgrade clickhouse-connect==0.5.22
 ```
 
+To check the MD5 hash of your models (eg for ggml-gpt4all-j-v1.3-groovy.bin MD5 it's 81a09a0ddf89690372fc296ff7f625af ) https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/metadata/models.json
 
 *Alternative requirements installation with poetry*
 1. Install [poetry](https://python-poetry.org/docs/#installation)
